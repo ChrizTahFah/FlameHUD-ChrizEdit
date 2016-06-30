@@ -1,0 +1,16 @@
+"motd_entries"
+{
+	"last_request_time"		"2016-06-20 21:58:20"
+	"last_request_language"		"english"
+	"75"
+	{
+		"post_time"		"2016-05-12 02:50:00"
+		"title_english"		"Mayflower Collection"
+		"text_english"		"Introducing the Mayflower Cosmetic Case! This case contains 14 new community cosmetic items from the Steam Workshop. The contents may be Strange or an Unusual Mayflower Hat."
+		"url"		"http://www.teamfortress.com/"
+		"image"		"../backpack/player/items/crafting/cosmetic_case_spring_large"
+		"header_type"		"1"
+		"header_english"		"New Community Items"
+		"header_icon"		"class_icons/filter_all_motd"
+	}
+}
