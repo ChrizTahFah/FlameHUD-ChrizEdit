@@ -522,7 +522,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c188"
+		"xpos"			"c148"
 		"ypos"			"28"
 		"zpos"			"10"
 		"wide"			"32"
@@ -593,7 +593,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-
+			"actionsignallevel" "2"
 			"Command"		"noti_show"
 			"navActivate"	"<QuickplayButton"
 
@@ -876,7 +876,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-
+			"actionsignallevel" "2"
 			"Command"		"motd_show"
 			"navActivate"	"<QuickplayButton"		// after selecting this, nav to this sibling
 
@@ -972,7 +972,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-
+			"actionsignallevel" "2"
 			"navDown"			"MOTD_URLButton"
 			"navActivate"		"<QuickplayButton"
 
@@ -1168,7 +1168,7 @@
 			"default"		"1"
 			"command"		"motd_viewurl"
 			"proportionaltoparent" "1"
-
+			"actionsignallevel" "2"
 			"navUp"			"MOTD_CloseButton"
 			"navLeft"		"MOTD_PrevButton"
 			"navRight"		"MOTD_NextButton"
@@ -1203,7 +1203,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"motd_prev"
-
+			"actionsignallevel" "2"
 			"navUp"			"MOTD_CloseButton"
 			"navRight"		"MOTD_URLButton"
 
@@ -1250,7 +1250,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"Command"		"motd_next"
-
+			"actionsignallevel" "2"
 			"navUp"			"MOTD_CloseButton"
 			"navLeft"		"MOTD_URLButton"
 
@@ -1359,7 +1359,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"0"
-
+			"actionsignallevel" "2"
 			"Command"		"noti_hide"
 			"navActivate"	"<QuickplayButton"
 
@@ -3950,7 +3950,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
-		"xpos"			"c0"
+		"xpos"			"9999"  //c0
 		"ypos"			"0"
 		"zpos"			"-60"
 		"wide"			"320"

@@ -43,7 +43,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"fgcolor"		"25 25 25 255"		
+		"fgcolor"		"25 25 25 255"			
 		"zpos"			"5"		
 		"visible"		"0"
 		"enabled"		"1"

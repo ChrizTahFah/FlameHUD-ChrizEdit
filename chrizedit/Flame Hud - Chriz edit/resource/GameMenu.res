@@ -9,29 +9,29 @@
 	}
 	"QuickplayButton"
 	{
-		"label" "#MMenu_PlayMultiplayer" 
-		"command" "quickplay"
+		"label" "Play Casual" 
+		"command" "play_casual"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
 	"QuickplayChangeButton"
 	{
-		"label" "#MMenu_NewGame" 
-		"command" "quickplay"
+		"label" "Play Casual" 
+		"command" "play_casual"
 		"subimage" "glyph_server"
 		"OnlyInGame" "1"
 	}
 	"PlayPVEButton"
 	{
 		"label" "Mann vs Machine" 
-		"command" "playpve"
+		"command" "play_mvm"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
 	}
 	"PlayCompetitiveButton"
 	{
 		"label" "#MMenu_PlayComp" 
-		"command" "ladder_ui_show"
+		"command" "play_competitive"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
 		"OnlyWhenCompetitiveEnabled" "1"

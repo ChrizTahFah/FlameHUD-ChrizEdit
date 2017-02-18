@@ -729,51 +729,52 @@ Scheme
 				"additive"	"1"
 			}
 		}
-
-		"CrossHairCircle"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"24"
-				"weight"	"0"
-				"antialias"	"1"
-				"outline" "1"
-			}
-		}
-		"CrossHairSpecialCombo1"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"3"
-				"weight"	"0"
-				"antialias"	"1"
-				"outline"	"1"
-			}
-		}
-
-		"CrossHairSpecialCombo2"
-		{
-			"1"
-			{
-				"name"		"BulletBalls AOE"
-				"tall"		"2"
-				"weight"	"0"
-				"antialias"	"1"
-				"outline"	"1"
-			}
-		}
-		"CrossHairKonrWings"
-		{
-		"1"
-		{
-		"name"	 "Garm3nFont"
-		"tall"	 	"18"
-		"weight"	"0"
-		"antialias"	"1"
-		}
-	}
+		
+        "CrossHairCircle"
+        {
+            "1"
+            {
+                "name"        "Formas germetricas 1"
+                "tall"        "24"
+                "weight"  "0"
+                "antialias"   "1"
+                "outline" "1"
+            }
+        }
+        "CrossHairSpecialCombo1"
+        {
+            "1"
+            {
+                "name"        "Formas germetricas 1"
+                "tall"        "3"
+                "weight"  "0"
+                "antialias"   "1"
+                "outline" "1"
+            }
+        }
+ 
+        "CrossHairSpecialCombo2"
+        {
+            "1"
+            {
+                "name"        "BulletBalls AOE"
+                "tall"        "2"
+                "weight"  "0"
+                "antialias"   "1"
+                "outline" "1"
+            }
+        }
+        "CrossHairKonrWings"
+        {
+        "1"
+        {
+        "name"     "Garm3nFont"
+        "tall"        "18"
+        "weight"  "0"
+        "antialias"   "1"
+		"outline"	"1"
+        }
+    }
 		"PlayerPanelPlayerName"
 		{
 			"1"
@@ -874,7 +875,6 @@ Scheme
 				"yres"		"1200 10000"
 			}
 		}
-
 		"HudFontGiantBold"
 		{
 			"1"
@@ -910,17 +910,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"CloseCaption_Normal"
-		{
-			"1"
-			{
-				"name"		"FuturaStd-Medium"
-				"tall"		"24"
-				"tall_hidef"	"32"
-				"weight"	"600"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-		}
+		       "CloseCaption_Normal"
+        {
+            "1"
+            {
+                "name"        "FuturaStd-Medium"
+                "tall"        "24"
+                "tall_hidef"  "32"
+                "weight"  "600"
+                "range"       "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
+            }
+        }
 		"HudFontBiggerBold"
 		{
 			"1"
@@ -966,7 +966,6 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"outline"   "0"
 			}
 		}		
 		"HudFontMedium"
@@ -1001,6 +1000,7 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+				"outline"   "0"
 			}
 		}
 		"HudFontMediumSmallBold"
@@ -1686,6 +1686,17 @@ Scheme
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ScoreboardSmallest"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"6"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -3003,6 +3014,57 @@ Scheme
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
+			}
+		}
+		
+		"MMenuPlayListDesc"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"9"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"XPSource"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"11"
+				"weight"	"500"
+				"antialias" 	"1"
+				"custom"	"1"
+			}
+		}
+
+		"XPSource_Glow"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"11"
+				"weight"	"500"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+				"custom"	"1"
+			}
+		}
+		
+		"MapVotesPercentage"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}
 
@@ -8261,6 +8323,32 @@ Scheme
 			}
 		}
 		
+		MainMenuButtonGlow
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"178 83 22 255"
+			
+			"image"					"button_glow"
+			"src_corner_height"		"4"				// pixels inside the image
+			"src_corner_width"		"4"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+
+		MainMenuButtonGlow2
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"238 103 17 255"
+			
+			"image"					"button_glow"
+			"src_corner_height"		"4"				// pixels inside the image
+			"src_corner_width"		"4"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		
 		NotificationDefault
 		{
 			"bordertype"			"scalable_image"
@@ -8271,6 +8359,17 @@ Scheme
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
+		}
+		NotificationHighPriority
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+
+			"image"					"button_holder_central"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"
 		}
 		MainMenuButtonDepressed
 		{
@@ -8430,6 +8529,30 @@ Scheme
 			"draw_corner_height" 	"4"	
 		}
 		
+		StoreHighlightedBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"featured_corner"
+			"src_corner_height"		"32"				// pixels inside the image
+			"src_corner_width"		"32"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+
+		StoreHighlightedBackgroundBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"store/store_featured_item_bg01"
+			"src_corner_height"		"80"				// pixels inside the image
+			"src_corner_width"		"30"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		
 		StoreDiscountBorder
 		{
 			"bordertype"			"scalable_image"
@@ -8556,6 +8679,20 @@ Scheme
 				{
 					"color" "TanDark"
 					"offset" "0 0"
+				}
+			}
+		}
+		
+		SortCategoryBorder
+		{
+			"inset" "0 0 1 1"
+	
+			Right
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "1 0"
 				}
 			}
 		}
@@ -8739,6 +8876,54 @@ Scheme
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"7"	
 		}
+		
+		InnerShadowBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"inner_shadow_border"
+			"src_corner_height"		"5"				// pixels inside the image
+			"src_corner_width"		"5"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+
+		InnerShadowBorderThin
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"inner_shadow_border"
+			"src_corner_height"		"5"				// pixels inside the image
+			"src_corner_width"		"5"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		
+		OuterShadowBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"outer_shadow_border"
+			"src_corner_height"		"8"				// pixels inside the image
+			"src_corner_width"		"8"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+
+		OuterShadowBorderThin
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"outer_shadow_border"
+			"src_corner_height"		"8"				// pixels inside the image
+			"src_corner_width"		"8"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
 	}
 
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
@@ -8812,6 +8997,6 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}			
-		"7" "resource/ocra.ttf"
+		"8" "resource/ocra.ttf"
 	}
 }
